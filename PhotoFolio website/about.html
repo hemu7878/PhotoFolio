@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .container {
+        position: relative;
+        width: 1150px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container .card {
+        position: relative;
+        width: 300px;
+        height: 350px;
+        background: #fff;
+        margin: 20px;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        transition: 0.5s;
+    }
+
+    .container:hover .card {
+        filter: blur(5px);
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+
+    .container .card:hover {
+        filter: blur(0px);
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    .container .card .circle {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        clip-path: circle(180px at center 0);
+        text-align: center;
+        background-image: url(testimonials-1.jpg);
+        background-size: 100%;
+    }
+
+    .container .card .content {
+        position: absolute;
+        bottom: 10px;
+        padding: 20px;
+        page-break-after: 20px;
+        text-align: center;
+    }
+
+    .container .card .content p {
+        color: #666;
+    }
+
+    .container .card:nth-child(1).circle,
+    .container .card:nth-child(1).content a {
+        background: #ffaf00;
+    }
+
+    .container .card:nth-child(2).circle,
+    .container .card:nth-child(2).content a {
+        background: #da2268;
+    }
+
+    .container .card:nth-child(3).circle,
+    .container .card:nth-child(3).content a {
+        background: #bb02ff;
+    }
+</style>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PhotoFolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="PhotoFolio.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="">ABOUT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GALLERY
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">CONTACT</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end  -->
+    <!-- header  -->
+    <h2 style="color: white; font-family: sans-serif; text-align: center; letter-spacing: 5px; margin-top: 5%;">About</h2>
+    <p style="color: white;text-align: center; font-family: sans-serif; letter-spacing: 3px; margin-top: 2%;">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo <br> odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis <br> veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+    <button type="button" class="btn btn-success" style="margin-left: 43%; margin-top: 2%;">AVAILABLE FOR HIRE</button>
+    <!-- header end  -->
+    <br>
+    <!-- gallery -->
+    <img src="profile-img.jpg" alt="" width="300px" style="margin-left: 15%; margin-top: 5%;">
+    <h4 style="color: darkseagreen; margin-left: 40%; margin-top: -33%;">Professional Photographer from New York</h4>
+    <p style="color: white; margin-left: 40%; margin-top: 2%;"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
+    <h5 style="color: white; margin-left: 40%; "><span style="color: darkseagreen;">></span>Birthday: 1 May 1995</h5>     <h5 style="color: white; margin-left: 59%; margin-top: -2.4%; "><span style="color: darkseagreen;">></span>Age:30</h5> 
+    <h5 style="color: white; margin-left: 40%; margin-top: 2%; "><span style="color: darkseagreen;">></span>Website:www.example.com</h5>     <h5 style="color: white; margin-left: 59%; margin-top: -2.4%; "><span style="color: darkseagreen;">></span>Degree:Master</h5> 
+    <h5 style="color: white; margin-left: 40%; margin-top: 2%; "><span style="color: darkseagreen;">></span>Phone: +123 456 7890</h5>     <h5 style="color: white; margin-left: 59%; margin-top: -2.4%; "><span style="color: darkseagreen;">></span>PhEmailone:email@example.com</h5> 
+    <h5 style="color: white; margin-left: 40%; margin-top: 2%; "><span style="color: darkseagreen;">></span>City:New York, USA</h5>     <h5 style="color: white; margin-left: 59%; margin-top: -2.4%; "><span style="color: darkseagreen;">></span>Freelance:Available</h5> 
+    <p style="color: white; margin-left: 40%; margin-top: 2%;"><i>Officiis eligendi itaque labore et dolorum mollitia officiis <br> optio vero. Quisquam sunt adipisci omnis et ut. Nulla <br> accusantium dolor incidunt officia tempore. Et eius omnis. <br> Cupiditate ut dicta maxime officiis quidem quia. Sed et <br> consectetur qui quia repellendus itaque neque. Aliquid amet <br> quidem ut quaerat cupiditate. Ab et eum qui repellendus <br> omnis culpa magni laudantium dolores.</i></p>
+    <p style="color: white; margin-left: 40%; margin-top: 2%;"><i>Recusandae est praesentium consequatur eos voluptatem. <br> Vitae dolores aliquam itaque odio nihil. Neque ut neque ut <br> quae voluptas. Maxime corporis aut ut ipsum consequatur. <br> Repudiandae sunt sequi minus qui et. Doloribus molestiae <br> officiis. Soluta eligendi fugiat omnis enim. Numquam alias <br> sint possimus eveniet ad. Ratione in earum eum magni <br> totam.</i></p>
+    <!-- gallery end  -->
+    <div class="container">
+        <div class="card">
+            <div class="circle">
+            </div>
+            <div class="content">
+                <p>
+                    Saul Goodman <br> Ceo & Founder
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="circle">
+            </div>
+            <div class="content">
+                <p>
+                   Jena Karlis <br> Store Owner
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="circle">
+            </div>
+            <div class="content">
+                <p>
+                    Matt Brandon <br>Freelancer
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
